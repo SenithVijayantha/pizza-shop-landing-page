@@ -10,10 +10,14 @@ navBarToggler.addEventListener('click', () => {
 
 modalTogglerBtn.addEventListener('click', () => {
   modal.classList.remove('hidden');
+  // modal.classList.remove('modal-animate-leave');
+  // modal.classList.add('modal-animate');
 })
 
 modalCloseBtn.addEventListener('click', () => {
   modal.classList.add('hidden');
+  // modal.classList.remove('modal-animate');
+  // modal.classList.add('modal-animate-leave');
 })
 
 window.addEventListener('click', (event) => {
